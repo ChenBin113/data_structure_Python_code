@@ -109,3 +109,6 @@ if __name__ == "__main__":
     sll.remove(20)
     print("Length of sll is {}".format(sll.length()))
     sll.travel()
+
+    print(sll.__dict__)
+    print(SingleLinkedList.__dict__)
